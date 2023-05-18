@@ -13,7 +13,7 @@ if(numbers[i]==key){
 
      public static void main(String[] args) {
         int numbers[]={2,4,6,8,10,12,14,16};
-        int key=10;  
+        int key=2;  
         int index= linearSearch(numbers, key);
         if(index==-1){
             System.out.println("not founded");

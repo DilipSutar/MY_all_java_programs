@@ -1,5 +1,6 @@
 package treval.management.system;
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.Image;
 import javax.swing.*;
 
@@ -25,9 +26,9 @@ public class Login extends JFrame{
        JPanel p2 =new JPanel();
        p2.setBounds(400, 30,450, 300);
         add(p2);
-        JLabel lblusername =new JLabel("username") {
-        	lblusername.set
-        }
+        JLabel lblusername =new JLabel("username");
+        	lblusername.setBounds(60,20,100,25);
+        lblusername.setFont(new Font("SAN SERIF",Font.PLAIN,20));
         setVisible(true);
         
     }
